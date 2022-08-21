@@ -26,7 +26,7 @@ public class App extends Application {
         stage.show();
         Image image = new Image(App.class.getResource("image/asuka.png").toExternalForm());
         ImageParser imageParser = new ImageParser(image);
-        imageParser.writeToCSV(new File(image.getUrl()));
+        imageParser.writeToCSV(new File("asuka.csv"));
     }
 
     static void setRoot(String fxml) throws IOException {
