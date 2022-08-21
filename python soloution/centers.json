@@ -1,0 +1,92 @@
+[
+    {
+        "coordinates": [
+            23,
+            72,
+            244
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            145,
+            67,
+            43
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            88,
+            97,
+            140
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            152,
+            182,
+            190
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            41,
+            68,
+            102
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            20,
+            73,
+            16
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            193,
+            110,
+            70
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            65,
+            43,
+            54
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            157,
+            104,
+            104
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            241,
+            240,
+            243
+        ],
+        "dimension": 3,
+        "point": true
+    }
+]

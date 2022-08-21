@@ -1,0 +1,29 @@
+[
+    {
+        "coordinates": [
+            140,
+            70,
+            52
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            77,
+            89,
+            133
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            205,
+            217,
+            224
+        ],
+        "dimension": 3,
+        "point": true
+    }
+]
