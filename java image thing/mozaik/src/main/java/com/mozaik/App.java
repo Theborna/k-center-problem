@@ -8,7 +8,14 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 import com.opencsv.CSVReader;
 
@@ -24,9 +31,20 @@ public class App extends Application {
         scene = new Scene(loadFXML("primary"), 640, 480);
         stage.setScene(scene);
         stage.show();
-        Image image = new Image(App.class.getResource("image/asuka.png").toExternalForm());
+        String name = "asuka2";
+        Image image = new Image(App.class.getResource("image/" + name + ".jpg").toExternalForm());
         ImageParser imageParser = new ImageParser(image);
-        imageParser.writeToCSV(new File("asuka.csv"));
+        imageParser.writeToCSV(new File(name + ".csv"));
+        JSONParser parser = new JSONParser();
+        JSONArray colors = null;
+        try {
+            colors = (JSONArray) parser
+                    .parse(new FileReader(new File("centers_" + name + ".json")));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        ImageMaker maker = new ImageMaker(image, colors);
+        maker.createImage(name);
     }
 
     static void setRoot(String fxml) throws IOException {

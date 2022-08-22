@@ -1,0 +1,137 @@
+[
+    {
+        "coordinates": [
+            192,
+            160,
+            157
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            78,
+            139,
+            63
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            246,
+            208,
+            196
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            198,
+            96,
+            59
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            230,
+            142,
+            87
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            125,
+            70,
+            69
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            199,
+            213,
+            233
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            26,
+            111,
+            183
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            100,
+            170,
+            217
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            4,
+            232,
+            155
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            103,
+            174,
+            80
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            40,
+            10,
+            13
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            222,
+            21,
+            44
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            35,
+            50,
+            75
+        ],
+        "dimension": 3,
+        "point": true
+    },
+    {
+        "coordinates": [
+            42,
+            222,
+            0
+        ],
+        "dimension": 3,
+        "point": true
+    }
+]

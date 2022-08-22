@@ -55,16 +55,17 @@ def winner_parent(centers: list, point: point) -> point:
 
 def main():
     # read data from file
-    path = 'asuka.csv'
+    name = "asuka2"
+    path = f'{name}.csv'
     pandas_csv = pd.read_csv(path)
     pandas_data = pandas_csv.iloc[:, 0: 3].copy()
     # reds, greens, blues = pandas_data.get(
-        # 'r'), pandas_data.get('g'), pandas_data.get('b')
+    # 'r'), pandas_data.get('g'), pandas_data.get('b')
     # pandas_data.head()  # check
     # print(pandas_data)
     # print(pandas_csv)
     centers = list()
-    k = 3
+    k = 15
     dimension = len(pandas_data.columns)
     for _ in range(k):
         cords = []
@@ -85,16 +86,15 @@ def main():
         for _point in points:  # time consumer
             center_children[winner_parent(
                 centers, _point)].append(_point.position)
-
         for center in center_children:  # amazing function
             if len(center_children[center]) == 0:
                 continue
             a = np.average(center_children[center], axis=0)
             center.position = a
-    for _ in range(1):
+    for _ in range(3):
         average()
     print(f'final average points: {centers}')
-    with open("centers.json", 'w') as f:
+    with open(f"centers_{name}.json", 'w') as f:
         json.dump(centers, f, cls=PointEncoder, indent=4)
 
 
